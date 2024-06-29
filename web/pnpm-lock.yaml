@@ -52,6 +52,9 @@ devDependencies:
   rimraf:
     specifier: ^3.0.2
     version: 3.0.2
+  tailwindcss:
+    specifier: ^3.4.4
+    version: 3.4.4
 
 packages:
 

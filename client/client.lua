@@ -3,6 +3,13 @@ local function toggleNuiFrame(shouldShow)
   SendReactMessage('setVisible', shouldShow)
 end
 
+function getCharacterData()
+  local characterData = {
+    name = "Bruno A.",
+    identity = "IBAN 4453312",
+    currentBalance = 5750.21
+  }
+
 RegisterCommand('show-nui', function()
   toggleNuiFrame(true)
   debugPrint('Show NUI frame')

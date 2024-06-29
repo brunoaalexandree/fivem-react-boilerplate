@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
-import {VisibilityProvider} from "./providers/VisibilityProvider";
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { VisibilityProvider } from "./providers/VisibilityProvider";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,5 +10,5 @@ ReactDOM.render(
       <App />
     </VisibilityProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
